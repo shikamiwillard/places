@@ -1,0 +1,2 @@
+# Uncomment to use google pedantic analyzer
+include: package:pedantic/analysis_options.yaml

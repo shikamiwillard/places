@@ -1,4 +1,4 @@
-name: places
+name: flutter_container
 description: A new Flutter project.
 
 # The following defines the version and build number for your application.
@@ -19,6 +19,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  web_socket_channel: ^1.1.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -27,6 +28,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  # test: ^1.11.0
+  # e2e: ^0.2.3
+  # test_coverage: ^0.4.0
+  # pedantic: ^1.4.0
 
 
 # For information on the generic Dart part of this file, see the
@@ -57,10 +62,10 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   # fonts:
-  #   - family: Schyler
+  #   - family: RedHat
   #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
+  #       - asset: fonts/RedHatDisplay-Regular.ttf
+  #       - asset: fonts/RedHatDisplay-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
